@@ -1,0 +1,208 @@
+
+
+html {
+    background: rgb(249,167,72);
+    background: linear-gradient(0deg, rgba(249,167,72,1) 0%, #bb4d1e 100%);
+    
+    
+}
+
+
+body {
+    background-image: url(images/image-lion-background.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.125rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: .9px solid whitesmoke;
+}
+
+main {
+    
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.main2 {
+    min-height: 300px;
+    padding: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 40px;
+    
+    
+    
+    
+}
+
+.card1 {
+    background-image: url(images/image-background-card1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.37);
+   
+
+    
+}
+
+.card2 {
+    min-height: 300px;
+    width: 30%;
+    background-image: url(images/image-background-card2.jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-size: cover;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.37);
+}
+.card3 {
+    min-height: 300px;
+    width: 30%;
+    background-image: url(images/image-background-card3.jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-size: cover;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.37);
+}
+
+.herobox1 {
+    flex: 2;
+    padding-right: 100px;
+    
+}
+
+.herobox2 {
+    flex: 1;
+}
+
+h1 {
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1.1rem;
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+}
+
+
+p {
+    line-height: 1.7rem;
+    margin-bottom: 0.5rem;
+}
+
+.cards p {
+    font-size: 0.85rem;
+    margin: 20px 30px 20px 30px;
+    line-height: 1.0rem;
+}
+
+.cards i {
+    font-size: 100px;
+    padding-top: 40px;
+}
+
+.myButton {
+    background-color: white;
+    color: black;
+    padding: 11px 25px 11px 25px;
+    border-radius: 1000px;
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    display: inline-block;
+    margin-top: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.myButton:hover {
+    background-color: red;
+    transition-duration: 1.3s;
+}
+
+.herobox2 img {
+    border-radius: 10px;
+}
+
+.navButton {
+    border-style: solid;
+    border-width: 1px;
+    padding: 11px 25px;
+    margin: 20px;
+    font-family: 'Playfair Display', serif;
+    border-radius: 1000px;
+    display: inline-block;
+    position: relative;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+
+
+.tbox1 {
+    width: 46%;
+    padding: 50px;
+    border: 1px solid whitesmoke;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.tbox1 p:last-of-type {
+    font-size: 0.8rem;
+    padding-left: 30px;
+}
+
+.dropDown {
+    display: none;
+    position: absolute;
+    padding-top: 20px;
+    margin-left: -25px;
+}
+
+.navButton:hover .dropDown {
+    display: block;
+}
+ .dropDown .navButton {
+     width: 129px;
+     background-color: white;
+}
+
+.dropDown .navButton a { 
+    color: black;
+}
